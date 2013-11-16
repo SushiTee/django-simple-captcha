@@ -8,7 +8,7 @@ install_requires = [
 ]
 
 if pillow_required():
-    install_requires.append('Pillow >=2.0.0,<2.1.0')
+    install_requires.append('Pillow >=2.0.0')
 
 setup(
     name='django-simple-captcha',
